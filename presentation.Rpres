@@ -1,0 +1,33 @@
+A Simple Shiny App - A Quick Preview of Datasets
+========================================================
+author: hyacinthuslove
+date: 25 Jan 2015
+========================================================
+How are you?
+
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(sleep)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+
+<div style='text-align: center;'>
+    <img height='560' src='image.JPG' />
+</div>
+
+```

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Simple Shiny Prototype</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A Simple Shiny Prototype">
+  <meta name="author" content="hyacinthuslove">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>A Simple Shiny Prototype</h1>
+    <h2>A Quick Preview of Datasets</h2>
+    <p>hyacinthuslove<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class" id="1" style="background:;">
+  <hgroup>
+    <h2>Introducton to a Simply Shiny Prototype</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><strong>Goal: Preview datasets in library(dataset) easily:</strong></p>
+
+<ul>
+<li><p>Select R library dataset easily with English-like phrases</p></li>
+<li><p>Choose how many observations in the selected dataset to view</p></li>
+<li><p>Display description and a quick summary of the selected dataset</p></li>
+<li><p>No need to remember / learn R</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="2" style="background:;">
+  <hgroup>
+    <h2>Clean and Easy to Use Interface</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="image.JPG" width="800"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="3" style="background:;">
+  <hgroup>
+    <h2>How does it help non-R users?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>By typing <em>library(help=datasets)</em> at R command line, you will see a full 
+ list of datasets in the library. However, it&#39;s be inconvenient for non-R users 
+ to install the software, learn R and type the commands to view the datasets in 
+ R. An example is <strong>head(anscombe, 5)</strong>. It&#39;s intimidating, isn&#39;t it?</p>
+
+<pre><code class="r">head(anscombe,5)
+</code></pre>
+
+<pre><code>##   x1 x2 x3 x4   y1   y2    y3   y4
+## 1 10 10 10  8 8.04 9.14  7.46 6.58
+## 2  8  8  8  8 6.95 8.14  6.77 5.76
+## 3 13 13 13  8 7.58 8.74 12.74 7.71
+## 4  9  9  9  8 8.81 8.77  7.11 8.84
+## 5 11 11 11  8 8.33 9.26  7.81 8.47
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="4" style="background:;">
+  <hgroup>
+    <h2>Future Developments</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>We planned to include these new features: </p>
+
+<ul>
+<li><p>Dynamically list all datasets in dataset library </p></li>
+<li><p>Select columns of each dataset </p></li>
+<li><p>Dynamic selection of variables to check for correlation</p></li>
+</ul>
+
+<p>Any Questions?</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introducton to a Simply Shiny Prototype'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Clean and Easy to Use Interface'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How does it help non-R users?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Future Developments'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

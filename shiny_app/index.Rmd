@@ -1,0 +1,65 @@
+---
+title       : A Simple Shiny Prototype 
+subtitle    : A Quick Preview of Datasets
+author      : hyacinthuslove
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+--- .class #1
+
+## Introducton to a Simply Shiny Prototype
+ 
+ 
+__Goal: Preview datasets in library(dataset) easily:__
+ 
+ + Select R library dataset easily with English-like phrases
+ 
+ + Choose how many observations in the selected dataset to view
+ 
+ + Display description and a quick summary of the selected dataset
+ 
+ + No need to remember / learn R
+ 
+
+--- .class #2 
+
+## Clean and Easy to Use Interface
+
+
+<img src="image.JPG" width="800">
+
+--- .class #3 
+
+## How does it help non-R users?
+
+ By typing _library(help=datasets)_ at R command line, you will see a full 
+ list of datasets in the library. However, it's be inconvenient for non-R users 
+ to install the software, learn R and type the commands to view the datasets in 
+ R. An example is __head(anscombe, 5)__. It's intimidating, isn't it?
+ 
+```{r}
+head(anscombe,5)
+
+```
+
+--- .class #4 
+
+## Future Developments
+ 
+We planned to include these new features: 
+ 
++ Dynamically list all datasets in dataset library 
+ 
++ Select columns of each dataset 
+ 
++ Dynamic selection of variables to check for correlation
+
+Any Questions?
+
+
+
